@@ -1,6 +1,6 @@
 class MusicPlayer {
   constructor() {
-    this.isMinimized = false;
+    this.isMinimized = true;
     this.playerElement = document.createElement("div");
     this.buttonElement = document.createElement("button");
     this.trackUrl =
@@ -11,11 +11,13 @@ class MusicPlayer {
   init() {
     // Set up player element
     this.playerElement.id = "music-player";
+    this.playerElement.classList.add("minimized");
     this.loadTrack();
 
     // Set up toggle button
     this.buttonElement.id = "toggle-music-player";
-    this.buttonElement.innerHTML = "✖️";
+    this.buttonElement.classList.add("minimized");
+    this.buttonElement.innerHTML = "🎵";
     this.buttonElement.addEventListener("click", () => this.togglePlayer());
 
     // Add scroll listener for auto-hide
