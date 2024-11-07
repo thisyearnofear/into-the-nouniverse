@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="320" shape-rendering="crispEdges" viewBox="0 0 320 320" width="320">
+  <rect fill="none" height="100%" width="100%"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="10" x="90" y="60"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="30" x="100" y="60"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="50" x="130" y="60"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="50" x="180" y="60"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="10" x="90" y="70"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="30" x="100" y="70"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="50" x="130" y="70"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="50" x="180" y="70"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="30" x="70" y="80"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="30" x="100" y="80"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="50" x="130" y="80"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="50" x="180" y="80"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="10" x="230" y="80"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="120" x="60" y="90"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="50" x="180" y="90"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="20" x="230" y="90"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="190" x="60" y="100"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="40" x="60" y="110"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="20" x="100" y="110"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="130" x="120" y="110"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="30" x="90" y="120"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="110" x="120" y="120"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="30" x="90" y="130"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="40" x="120" y="130"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="30" x="160" y="130"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="40" x="190" y="130"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="70" x="90" y="140"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="30" x="160" y="140"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="40" x="190" y="140"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="70" x="90" y="150"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="30" x="160" y="150"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="40" x="190" y="150"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="20" x="90" y="160"/>
+  <rect fill="#feb9d5" height="10" shape-rendering="crispEdges" width="140" x="110" y="160"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="10" x="90" y="170"/>
+  <rect fill="#eff2fa" height="10" shape-rendering="crispEdges" width="10" x="100" y="170"/>
+  <rect fill="#feb9d5" height="10" shape-rendering="crispEdges" width="40" x="110" y="170"/>
+  <rect fill="#5a423f" height="10" shape-rendering="crispEdges" width="20" x="150" y="170"/>
+  <rect fill="#feb9d5" height="10" shape-rendering="crispEdges" width="30" x="170" y="170"/>
+  <rect fill="#5a423f" height="10" shape-rendering="crispEdges" width="20" x="200" y="170"/>
+  <rect fill="#feb9d5" height="10" shape-rendering="crispEdges" width="30" x="220" y="170"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="20" x="90" y="180"/>
+  <rect fill="#feb9d5" height="10" shape-rendering="crispEdges" width="140" x="110" y="180"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="20" x="90" y="190"/>
+  <rect fill="#feb9d5" height="10" shape-rendering="crispEdges" width="30" x="110" y="190"/>
+  <rect fill="#5a423f" height="10" shape-rendering="crispEdges" width="90" x="140" y="190"/>
+  <rect fill="#feb9d5" height="10" shape-rendering="crispEdges" width="20" x="230" y="190"/>
+  <rect fill="#000000" height="10" shape-rendering="crispEdges" width="20" x="90" y="200"/>
+  <rect fill="#feb9d5" height="10" shape-rendering="crispEdges" width="140" x="110" y="200"/>
+</svg>

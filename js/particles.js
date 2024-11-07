@@ -128,6 +128,19 @@ export function initParticles() {
     renderer.setSize(window.innerWidth, window.innerHeight);
   });
 
+  let scrollSpeed = 0;
+  let lastScrollTop = 0;
+
+  window.addEventListener("scroll", () => {
+    const st = window.pageYOffset;
+    scrollSpeed = Math.abs(st - lastScrollTop) * 0.01;
+    lastScrollTop = st;
+
+    // Affect particle movement based on scroll speed
+    particlesMaterial.size = Math.min(0.01 + scrollSpeed * 0.002, 0.02);
+    particlesMesh.rotation.y += scrollSpeed * 0.0001;
+  });
+
   return {
     renderer,
     scene,

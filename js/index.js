@@ -1,5 +1,6 @@
 import { preloadImages, getGrid } from "./utils.js";
 import { initParticles } from "./particles.js";
+import MusicPlayer from "./MusicPlayer.js";
 
 // Define a variable that will store the Lenis smooth scrolling object
 let lenis;
@@ -351,6 +352,23 @@ const scroll = () => {
   });
 };
 
+// Add this after your existing scroll animations
+const contentSections = document.querySelectorAll(".content, .quote-container");
+
+contentSections.forEach((section) => {
+  gsap.from(section, {
+    opacity: 0,
+    y: 30,
+    duration: 1,
+    scrollTrigger: {
+      trigger: section,
+      start: "top bottom-=100",
+      end: "top center",
+      scrub: true,
+    },
+  });
+});
+
 // Initialize particles after other content is loaded
 preloadImages(".grid__item-inner").then(() => {
   initSmoothScrolling();
@@ -359,6 +377,11 @@ preloadImages(".grid__item-inner").then(() => {
 
   const { renderer, scene, camera, particlesMesh, nebulaMesh, nebulaMaterial } =
     initParticles();
+
+  // Initialize music player after content is loaded
+  if (!window.musicPlayer) {
+    window.musicPlayer = new MusicPlayer();
+  }
 
   // Animation loop
   function animate() {
